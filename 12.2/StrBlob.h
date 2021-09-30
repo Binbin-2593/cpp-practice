@@ -1,5 +1,5 @@
-#ifndef MY_STRBLOB_H
-#define MY_STRBLOB_H 
+#ifndef STRBLOB_H
+#define STRBLOB_H 
 #include<vector>
 #include<string>
 #include<initializer_list>
@@ -13,9 +13,11 @@ public:
     typedef vector<string>::size_type size_type;
     StrBlob();
     StrBlob(initializer_list<string> il);
+
     size_type size() const { return data->size(); }
     bool empty() const { return data->empty(); }
     void push_back(const string&t){return data->push_back(t);}
+    
     void pop_back();
     string &front();
     const string &front() const;
