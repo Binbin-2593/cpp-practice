@@ -6,6 +6,7 @@ using namespace std;
 int main( int argc, char** argv)
 {
     StrBlob b1;
+    //代码块在这里的作用是体现作用域结束后局部变量b2的情况
     {
         StrBlob b2 = {"a", "an", "the"};
         b1=b2;

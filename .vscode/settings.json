@@ -29,7 +29,9 @@
         "__locale": "cpp",
         "ostream": "cpp",
         "functional": "cpp",
-        "iosfwd": "c"
+        "iosfwd": "c",
+        "vector": "cpp",
+        "memory": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled", // 格式化时调整include的顺序（按字母排序）
 }
